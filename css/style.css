@@ -1,0 +1,142 @@
+/* CSS Document */
+
+/* Geral */
+#beezzer_stats {
+	font-size:85%;
+}
+#beezzer_paging {
+	background:transparent url(http://pt.beezzer.com/img/produto.fundo.gif) repeat scroll 0 0;
+	border:1px solid #E5E5E5;
+	color:#CCCCCC;
+	font-size:13px;
+	padding:10px 0;
+	text-align:center;
+	width:99%;
+	margin-top:10px;
+}
+#beezzer_paging span {
+	margin:0 7px;
+}
+#beezzer_form {
+	border: 1px dashed #CCCCCC;
+	padding: 10px 20px;
+	margin: 10px;
+	background-color:#f7f7f7;
+	text-align: left;
+}
+
+/* beezzer_club_tempalte_clube_conf.php */
+.beezzer_div {
+	padding: 1px;
+	font-weight: bold;
+	text-align:center
+}
+
+.beezzer_div_error {
+	background-color:red;
+}
+
+.beezzer_div_ok {
+	background-color:green;
+}
+
+/* beezzer_club_template_clube.php */
+#beezzer_tickets {
+	width: 100%;
+}
+
+#beezzer_tickets .beezzer_ticket {
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:17px;
+}
+
+#beezzer_tickets td {
+	border-bottom:1px solid #EAEAEA;
+	padding:2px 0;
+}
+
+#beezzer_tickets th {
+	border-bottom:1px solid #EAEAEA;
+	padding:3px 0;
+	text-align: left;
+	padding:3px;
+}
+
+#beezzer_tickets .beezzer_autor_ticket {
+	font-size:85%;
+	color:#999999;
+}
+#beezzer_tickets .beezzer_autor_ticket td {
+	border:none;
+	padding-right:3px;
+}
+#beezzer_tickets .beezzer_autor_ticket a {
+	color:#999999;
+}
+
+#beezzer_tickets .beezzer_visualizacoes {
+	text-align:center;
+	font-size:85%;
+}
+
+#beezzer_tickets .beezzer_data {
+	text-align:center;
+	font-size:85%;
+}
+#beezzer_tickets .beezzer_autor_foto{
+	width: 15px;	
+	border:1px solid #D1D1D1;
+	padding:2px;
+}
+
+.beezzer_participantes_foto {
+	border:1px solid #D1D1D1;
+	padding:2px;		
+}
+
+#beezzer_plugin #join-club-aviso #join-club-aviso-txt {
+	margin: 0px auto;
+	text-align: center;
+	background-color: #FCFAB4;
+	font-size: 10px;
+	width: 280px;
+	border: 1px solid #ccca30;
+}
+
+/* beezzer_club_template_ticket.php */
+.beezzer_autor {
+	background: url(http://pt.beezzer.com/img/produto.fundo.gif);
+	border: 1px solid #E6E6E6;
+	vertical-align:top;
+	width:105px;
+}
+.beezzer_autor_dentro {
+	margin:10px;
+	font-size:85%;
+	text-align: left;
+}
+.beezzer_autor_dentro img {
+	background-color: #fff;
+}
+.beezzer_autor_dentro a {
+	text-decoration:none;
+}
+.beezzer_texto {
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	padding: 7px 7px 2px 7px;
+	background-color: #fff;
+	font-size:90%;
+}
+.beezzer_resposta {
+	margin-bottom:10px;
+	width:100%;
+}
+.beezzer_autor_foto {
+	border:1px solid #D1D1D1;
+	padding:3px;
+}
